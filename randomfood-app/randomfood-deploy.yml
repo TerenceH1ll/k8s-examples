@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: randomfood-app-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: randomfood-app
+  template:
+    metadata:
+      labels:
+        app: randomfood-app
+    spec:
+      containers:
+      - name: randomfood-app
+        image: terenceh1ll/randomfood-app:v0.1
+        ports:
+        - containerPort: 80
