@@ -36,7 +36,7 @@ spec:
         - containerPort: 80
         env:
         - name: STAGE
-          value: "dev"
+          value: "prod"
         - name: ADMIN
           value: "ls"
         resources:
