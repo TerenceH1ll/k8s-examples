@@ -1,6 +1,6 @@
 # k8s-examples
 
-## ArgoCD Example
+## ArgoCD Installation & Example Configuration
 
 [Argo CD Getting Started](https://argo-cd.readthedocs.io/en/stable/getting_started/)
 
@@ -70,7 +70,7 @@ networkpolicy.networking.k8s.io/argocd-repo-server-network-policy created
 networkpolicy.networking.k8s.io/argocd-server-network-policy created
 
 ❯ kubectl config set-context --current --namespace=argocd
-Context "hda" modified.
+Context "private" modified.
 
 ❯ argocd login --core
 Context 'kubernetes' updated
