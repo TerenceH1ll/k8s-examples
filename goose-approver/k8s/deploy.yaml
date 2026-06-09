@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: goose-web
-        image: your-registry/goose-web:latest
+        image: terenceh1ll/goose-web:latest
         imagePullPolicy: Always
 
         ports:
