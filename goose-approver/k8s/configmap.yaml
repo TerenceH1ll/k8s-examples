@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: goose-wisdom
+  namespace: goose-app
+data:
+  wisdom: |
+    APPROVED: Deploy directly to production.|
+    REJECTED: Too many semicolons.|
+    ESCALATED: Consult the sacred bread.|
+    APPROVED: The goose likes your vibes.|
+    REJECTED: Mercury is in retrograde.|
+    APPROVED: CI/CD stands for "Completely Irresponsible Continuous Deployment".|
+    ESCALATED: Another goose must review this request.|
+    APPROVED: Honk.

@@ -1,0 +1,51 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: goose-web
+  namespace: goose-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: goose-web
+  template:
+    metadata:
+      labels:
+        app: goose-web
+    spec:
+      containers:
+      - name: goose-web
+        image: your-registry/goose-web:latest
+        imagePullPolicy: Always
+
+        ports:
+        - containerPort: 8080
+
+        env:
+        - name: GOOSE_WISDOM
+          valueFrom:
+            configMapKeyRef:
+              name: goose-wisdom
+              key: wisdom
+
+        readinessProbe:
+          httpGet:
+            path: /healthz
+            port: 8080
+          initialDelaySeconds: 5
+          periodSeconds: 10
+
+        livenessProbe:
+          httpGet:
+            path: /healthz
+            port: 8080
+          initialDelaySeconds: 10
+          periodSeconds: 20
+
+        resources:
+          requests:
+            cpu: "100m"
+            memory: "128Mi"
+          limits:
+            cpu: "250m"
+            memory: "256Mi"
