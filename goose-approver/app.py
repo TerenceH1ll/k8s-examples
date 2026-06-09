@@ -9,6 +9,9 @@ def home():
     wisdom = os.environ.get("GOOSE_WISDOM", "")
     messages = [m.strip() for m in wisdom.split("|") if m.strip()]
 
+    confidence = random.randint(0, 100)
+    decision_id = random.randint(100000, 999999)
+
     if not messages:
         messages = [
             "APPROVED: The goose said yes."
@@ -46,6 +49,8 @@ def home():
             <h2>{choice}</h2>
             <p>Refresh for another executive decision.</p>
         </div>
+        <p><b>Decision ID:</b> {{decision_id}}</p>
+        <p><b>Goose Confidence:</b> {{confidence}}%</p>
     </body>
     </html>
     """

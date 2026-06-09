@@ -12,4 +12,82 @@ data:
     REJECTED: Mercury is in retrograde.|
     APPROVED: CI/CD stands for "Completely Irresponsible Continuous Deployment".|
     ESCALATED: Another goose must review this request.|
-    APPROVED: Honk.
+    APPROVED: Honk.|
+    REJECTED: Not enough emojis in the pull request.|
+    APPROVED: Enough emojis in the pull request.|
+    ESCALATED: Have you tried turning management off and on again?|
+    APPROVED: Ship it before anyone asks questions.|
+    REJECTED: Someone used tabs.|
+    REJECTED: Someone used spaces.|
+    ESCALATED: The tabs versus spaces war must continue.|
+    APPROVED: This code has excellent goose energy.|
+    REJECTED: The variable names are too understandable.|
+    APPROVED: Production is the best testing environment.|
+    ESCALATED: The interns demand answers.|
+    APPROVED: The build passed on one machine.|
+    REJECTED: The build passed suspiciously fast.|
+    APPROVED: It worked in a dream I had.|
+    REJECTED: The moon is judging us.|
+    ESCALATED: Schedule a meeting to schedule another meeting.|
+    APPROVED: The KPI line went up.|
+    REJECTED: The KPI line went down.|
+    ESCALATED: Nobody remembers what the KPI means.|
+    APPROVED: AI said yes.|
+    REJECTED: AI said maybe.|
+    ESCALATED: AI started asking questions.|
+    APPROVED: Legacy code has accepted your tribute.|
+    REJECTED: Legacy code demands more sacrifices.|
+    APPROVED: The database feels lucky today.|
+    REJECTED: The database remembers what you did.|
+    ESCALATED: The database refuses to elaborate.|
+    APPROVED: Your Jira ticket achieved enlightenment.|
+    REJECTED: Your Jira ticket became self-aware.|
+    ESCALATED: The Scrum Master has entered a higher plane of existence.|
+    APPROVED: The load balancer balanced something.|
+    REJECTED: The load balancer chose violence.|
+    APPROVED: Kubernetes nodded approvingly.|
+    REJECTED: Kubernetes created three new problems.|
+    ESCALATED: Kubernetes created seventeen new resources.|
+    APPROVED: DNS propagated emotionally.|
+    REJECTED: DNS is still thinking about it.|
+    ESCALATED: DNS has gone on vacation.|
+    APPROVED: The logs look expensive.|
+    REJECTED: There are no logs.|
+    ESCALATED: There are only logs.|
+    APPROVED: The coffee machine blessed this deployment.|
+    REJECTED: Decaf was detected.|
+    APPROVED: The canary survived.|
+    REJECTED: The canary now manages the company.|
+    ESCALATED: The canary has lawyered up.|
+    APPROVED: Security is at lunch.|
+    REJECTED: Security is awake.|
+    APPROVED: The outage is technically a feature.|
+    REJECTED: The feature is technically an outage.|
+    ESCALATED: Nobody can tell the difference anymore.|
+    APPROVED: The architecture diagram looks impressive.|
+    REJECTED: The architecture diagram makes sense. Suspicious.|
+    APPROVED: Your microservices have become macro-successes.|
+    REJECTED: Your monolith has become self-conscious.|
+    ESCALATED: Service discovery is discovering itself.|
+    APPROVED: The release train has no brakes.|
+    REJECTED: The release train has become a bus.|
+    ESCALATED: Nobody knows who is driving.|
+    APPROVED: The goose spun three times and pointed at your PR.|
+    REJECTED: The goose spun four times. Unacceptable.|
+    APPROVED: The sacred YAML parsed successfully.|
+    REJECTED: The sacred YAML contains forbidden whitespace.|
+    ESCALATED: YAML has become sentient.|
+    APPROVED: This deployment increases shareholder honk value.|
+    REJECTED: Insufficient honk alignment.|
+    ESCALATED: Honk compliance audit required.|
+    APPROVED: The cluster spirits are pleased.|
+    REJECTED: The cluster spirits demand snacks.|
+    APPROVED: No one noticed the change.|
+    REJECTED: Everyone noticed the change.|
+    ESCALATED: Someone tweeted about the change.|
+    APPROVED: The rubber duck endorsed this proposal.|
+    REJECTED: The rubber duck requested revisions.|
+    ESCALATED: The rubber duck has joined the board.|
+    APPROVED: The goose has spoken.|
+    REJECTED: The goose has spoken.|
+    ESCALATED: The goose would like to speak with your manager.
